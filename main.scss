@@ -1,0 +1,246 @@
+$f:flex;
+$light-grey:#F0F0F0;
+$white:#fff;
+$dark-grey:#8E8E8E;
+$ls:none;
+$blue:#2E86C1;
+$green:#689A3D;
+$orange:#f27a00;
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $light-grey;
+}
+
+header{
+background-color: $white;
+}
+
+.wrapper-container{
+    width:80%;
+    margin:auto;
+
+    .navbar{
+        display:$f;
+        justify-content: space-between;
+        color:#8E8E8E;
+
+        .container-1{
+            display: $f;
+            padding:15px;
+            font-size: 12px;
+
+            span{
+                padding-left: 8px;
+                padding-right: 12px;
+            }
+        }
+%con-style{
+    border-left:2px solid $light-grey;
+    padding-top:12px;
+    padding-left: 10px;
+    padding-right: 70px;
+    font-size: 15px;
+}
+%lasttwop-shared{
+    padding-left:20px;
+    padding-right: 20px;
+}
+        .container-2{
+            display: $f;
+
+            p{
+                @extend %con-style;
+            }
+            .sec-last-p{
+                @extend %lasttwop-shared
+            }
+            .last-p{
+                border-right:2px solid $light-grey;
+                @extend %lasttwop-shared;
+                
+            }
+        }
+    }
+}
+
+section{
+    width:90%;
+    margin:auto;
+    margin-top:30px;
+
+    .nav{
+        display: $f;
+        justify-content: space-between;
+        
+        
+        %sec-shared{
+            display: $f;
+            list-style: $ls;
+            border: 2px solid $light-grey;
+            background-color: $white;
+            text-align: center
+        }
+
+        .sec-container-1 ul{
+            @extend %sec-shared;
+            font-size: 20px;
+            padding:20px 50px;
+            letter-spacing: 3px;
+            i{
+                color:$dark-grey;
+            }
+
+            p{
+                color:$dark-grey;
+            }
+            
+        }
+
+        .sec-container-2 ul{
+            @extend %sec-shared;
+            font-size: 19px;
+
+            li{
+                padding:25px 36px;
+                border-right:2px solid $light-grey;
+
+                i{
+                    color:$dark-grey;
+                }
+
+                p{
+                    padding-top: 13px;
+                    color:$blue;
+                    font-weight: bold;
+                }
+            }
+
+        }
+    }
+}
+.sec-container-3{
+    height: 50%;
+}
+.flex-columns{
+    display: $f;
+
+    .column-1{
+        width: 70%;
+        
+        // img{
+        //     height:80%;
+        //     width:100%;
+        // }
+    }
+    .column-2{
+
+        %buttonshared{
+            padding:15px 40px;
+            background-color: $blue;
+            border:none;
+            font-size: 15px;
+            color:$white;
+
+        }
+        width: 30%;
+        background-color: $white;
+
+        .content{
+            padding:20px;
+
+            h1{
+                font-size: 30px;
+            }
+            
+            P{
+                margin:50px 0px;
+            }
+            button{
+                @extend %buttonshared;
+                float: right;
+            }
+            
+        }
+    }
+}
+.sec-container-4{
+
+
+    %item-flexshared{
+        padding:30px;
+        text-align: center;
+        color:$white;
+        font-size: 14px;
+
+    }
+
+    .item-flex1{
+        @extend %item-flexshared;
+        background-color: $blue;
+        margin-right:20px;
+
+        i{
+            margin:30px 0px;
+        }
+
+    }
+
+    .item-flex2{
+        @extend %item-flexshared;
+        background-color: $green;
+        margin-right:20px;
+
+        i{
+            margin:30px 0px;
+        }
+
+    }
+
+    .item-flex3{
+        @extend %item-flexshared;
+        background-color: $orange;
+
+        i{
+            margin:30px 0px;
+        }
+    }
+}
+
+.sec-container-5{
+    background-color: $white;
+    .main-container-2{
+        display: $f;
+        justify-content: space-between;
+
+        .item-flex1{
+            background-color: $blue;
+            margin-right:20px;
+            width: 30%;
+    
+        }
+    }
+
+
+}
+.sec-container-6{
+    background-color: $white;
+
+    .flex-item1{
+        display: $f;
+        width:70%;
+
+        .col-1{
+            width:40%;
+        }
+        .col-2{
+            width: 60%;
+        }
+    }
+}
+
+

@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #F0F0F0;
+}
+
+header {
+  background-color: #fff;
+}
+
+.wrapper-container {
+  width: 80%;
+  margin: auto;
+}
+
+.wrapper-container .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #8E8E8E;
+}
+
+.wrapper-container .navbar .container-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px;
+  font-size: 12px;
+}
+
+.wrapper-container .navbar .container-1 span {
+  padding-left: 8px;
+  padding-right: 12px;
+}
+
+.wrapper-container .navbar .container-2 p {
+  border-left: 2px solid #F0F0F0;
+  padding-top: 12px;
+  padding-left: 10px;
+  padding-right: 70px;
+  font-size: 15px;
+}
+
+.wrapper-container .navbar .container-2 .sec-last-p, .wrapper-container .navbar .container-2 .last-p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.wrapper-container .navbar .container-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper-container .navbar .container-2 .last-p {
+  border-right: 2px solid #F0F0F0;
+}
+
+section {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+section .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section .nav .sec-container-1 ul, section .nav .sec-container-2 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  border: 2px solid #F0F0F0;
+  background-color: #fff;
+  text-align: center;
+}
+
+section .nav .sec-container-1 ul {
+  font-size: 20px;
+  padding: 20px 50px;
+  letter-spacing: 3px;
+}
+
+section .nav .sec-container-1 ul i {
+  color: #8E8E8E;
+}
+
+section .nav .sec-container-1 ul p {
+  color: #8E8E8E;
+}
+
+section .nav .sec-container-2 ul {
+  font-size: 19px;
+}
+
+section .nav .sec-container-2 ul li {
+  padding: 25px 36px;
+  border-right: 2px solid #F0F0F0;
+}
+
+section .nav .sec-container-2 ul li i {
+  color: #8E8E8E;
+}
+
+section .nav .sec-container-2 ul li p {
+  padding-top: 13px;
+  color: #2E86C1;
+  font-weight: bold;
+}
+
+.sec-container-3 {
+  height: 50%;
+}
+
+.flex-columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-columns .column-1 {
+  width: 70%;
+}
+
+.flex-columns .column-2 {
+  width: 30%;
+  background-color: #fff;
+}
+
+.flex-columns .column-2 .content button {
+  padding: 15px 40px;
+  background-color: #2E86C1;
+  border: none;
+  font-size: 15px;
+  color: #fff;
+}
+
+.flex-columns .column-2 .content {
+  padding: 20px;
+}
+
+.flex-columns .column-2 .content h1 {
+  font-size: 30px;
+}
+
+.flex-columns .column-2 .content P {
+  margin: 50px 0px;
+}
+
+.flex-columns .column-2 .content button {
+  float: right;
+}
+
+.sec-container-4 .item-flex1, .sec-container-4 .item-flex2, .sec-container-4 .item-flex3 {
+  padding: 30px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+
+.sec-container-4 .item-flex1 {
+  background-color: #2E86C1;
+  margin-right: 20px;
+}
+
+.sec-container-4 .item-flex1 i {
+  margin: 30px 0px;
+}
+
+.sec-container-4 .item-flex2 {
+  background-color: #689A3D;
+  margin-right: 20px;
+}
+
+.sec-container-4 .item-flex2 i {
+  margin: 30px 0px;
+}
+
+.sec-container-4 .item-flex3 {
+  background-color: #f27a00;
+}
+
+.sec-container-4 .item-flex3 i {
+  margin: 30px 0px;
+}
+
+.sec-container-5 {
+  background-color: #fff;
+}
+
+.sec-container-5 .main-container-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sec-container-5 .main-container-2 .item-flex1 {
+  background-color: #2E86C1;
+  margin-right: 20px;
+  width: 30%;
+}
+
+.sec-container-6 {
+  background-color: #fff;
+}
+
+.sec-container-6 .flex-item1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+}
+
+.sec-container-6 .flex-item1 .col-1 {
+  width: 40%;
+}
+
+.sec-container-6 .flex-item1 .col-2 {
+  width: 60%;
+}
+/*# sourceMappingURL=main.css.map */
